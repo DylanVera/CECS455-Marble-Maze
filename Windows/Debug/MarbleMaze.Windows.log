@@ -1,0 +1,30 @@
+﻿Build started 3/26/2015 5:11:02 PM.
+     1>Project "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\MarbleMaze.Windows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\\" /IDebug\ /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\\" /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\\" /I"Generated Files\\" /IDebug\ /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\\" /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\MarbleMazeMain.cpp"
+         MarbleMazeMain.cpp
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\MarbleMaze.Windows.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Visual Studio\VC\\lib\store" /LIBPATH:"D:\Visual Studio\VC\\lib" d2d1.lib d3d11.lib dxgi.lib ole32.lib windowscodecs.lib dwrite.lib dxguid.lib xaudio2.lib xinput.lib mfcore.lib mfplat.lib mfreadwrite.lib mfuuid.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\MarbleMaze.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\MarbleMaze.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\app.obj
+         Debug\MarbleMazeMain.obj
+         Debug\pch.obj
+         Debug\SampleOverlay.obj
+         Debug\BasicShapes.obj
+         Debug\BasicLoader.obj
+         Debug\BasicReaderWriter.obj
+         Debug\PersistentState.obj
+         Debug\DDSTextureLoader.obj
+         Debug\DeviceResources.obj
+         Debug\Audio.obj
+         Debug\Camera.obj
+         Debug\Collision.obj
+         Debug\LoadScreen.obj
+         Debug\MediaStreamer.obj
+         Debug\Physics.obj
+         Debug\SDKMesh.obj
+         Debug\UserInterface.obj
+         MarbleMaze.Windows.vcxproj -> C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\MarbleMaze.Windows.exe
+     1>Done Building Project "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\MarbleMaze.Windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12
