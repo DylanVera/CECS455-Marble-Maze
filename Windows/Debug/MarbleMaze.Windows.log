@@ -1,4 +1,4 @@
-﻿Build started 3/26/2015 5:11:02 PM.
+﻿Build started 3/27/2015 3:15:17 PM.
      1>Project "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\MarbleMaze.Windows.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Visual Studio\VC\bin\CL.exe /c /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\\" /IDebug\ /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\\" /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\\" /I"Generated Files\\" /IDebug\ /I"C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\\" /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _DEBUG /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Shared\MarbleMazeMain.cpp"
@@ -23,8 +23,10 @@
          Debug\SDKMesh.obj
          Debug\UserInterface.obj
          MarbleMaze.Windows.vcxproj -> C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\MarbleMaze.Windows.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\\" -ConfigXml Debug\priconfig.xml -OutputFile "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Debug\MarbleMaze.Windows\resources.pri" -IndexName Microsoft.SDKSamples.MarbleMaze.CPP -Verbose -Overwrite  
      1>Done Building Project "C:\Users\dilen_000\Downloads\DirectX marble maze game sample\C++\Windows\MarbleMaze.Windows.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.12
+Time Elapsed 00:00:02.84

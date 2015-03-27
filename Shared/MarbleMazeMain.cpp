@@ -5,8 +5,7 @@
 ////
 //// Copyright (c) Microsoft Corporation. All rights reserved
 
-#include "pch.h
-
+#include "pch.h"
 #include "MarbleMazeMain.h"
 #include <DirectXColors.h> // For named colors
 #include "DirectXHelper.h" // For ThrowIfFailed
@@ -35,6 +34,7 @@ MarbleMazeMain::MarbleMazeMain(const std::shared_ptr<DX::DeviceResources>& devic
     m_windowActive(false),
     m_deferredResourcesReady(false)
 {
+
     // Register to be notified if the Device is lost or recreated.
     m_deviceResources->RegisterDeviceNotify(this);
 
@@ -45,7 +45,6 @@ MarbleMazeMain::MarbleMazeMain(const std::shared_ptr<DX::DeviceResources>& devic
     m_resetMarbleRotation = false;
     m_currentCheckpoint = 0;
     m_windowActive = false;
-
 
     m_lightStrength = 0.0f;
     m_targetLightStrength = 0.0f;
@@ -1235,7 +1234,7 @@ void MarbleMazeMain::Update()
 }
 
 //TODO: Lots...
-#if 1
+#if 0
 void CheckLicense()
 {
 	// Get the license info
