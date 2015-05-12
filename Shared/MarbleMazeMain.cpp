@@ -42,7 +42,7 @@ MarbleMazeMain::MarbleMazeMain(const std::shared_ptr<DX::DeviceResources>& devic
     ZeroMemory(&m_marbleConstantBufferData, sizeof(m_marbleConstantBufferData));
     m_vertexStride = 0;
     m_resetCamera = false;
-    m_resetMarbleRotation = false;
+    m_resetMarbleRotation = false;   
     m_currentCheckpoint = 0;
     m_windowActive = false;
 
@@ -364,7 +364,7 @@ void MarbleMazeMain::LoadDeferredResources(bool delay, bool deviceOnly)
     DX::ThrowIfFailed(
         m_marbleMesh.Create(
             m_deviceResources->GetD3DDevice(),
-            L"Media\\Models\\marble2.sdkmesh",
+            L"Media\\Models\\blueMarble.sdkmesh",
             false
             )
         );
